@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personeldetails</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<style>
+    
+        
+    
+  
+    #navbar{
+        background-color: blanchedalmond;
+        display: flex;
+
+    }
+    ul li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 5px;
+        
+    }
+    ul li a{
+        text-decoration: none;
+    } 
+    
+    
+
+</style>
+<body>
+    <div class="container">
+        
+        <div id="navbar">
+            <ul>
+                <li style="margin-right: 20px;"><a href="Home.html">Home</a></li>
+                <li><a href="personeldetails.html">personeldetails</a></li>
+                <li><a href="Contact Us.html">Contact Us</a></li>
+            </ul> 
+               
+        </div>
+        <!-- <img src="maxresdefault.jpg"> -->
+        <h2>Login Form</h2>
+	<form style="background-color: rgba(244, 246, 246, 0.893);padding: 100px;">
+		<label for="username">Username</label>
+		<input type="text" id="username" name="username" placeholder="Enter your username">
+
+		<label for="password">Password</label>
+		<input type="password" id="password" name="password" placeholder="Enter your password">
+
+		<input type="button" value="Login" onclick="login()">
+		<input type="button" value="Clear" onclick="clearForm()">
+	</form>
+
+	<script src="login.js"></script>
+       
+
+
+    </div>
+</body>
+</html>
